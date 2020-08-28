@@ -1,0 +1,121 @@
+header{
+  min-height: 40vh;
+  position: relative;
+  background: #fff;
+  background: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 42px 5px;
+  overflow-x: hidden;
+
+}
+.my_image_box{
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my_img{
+  width:18vh;
+  height:18vh;
+  border-radius: 50%;
+
+}
+.Name{
+  margin-top: 5px;
+  color: #F4F0F9;
+  font-size: 21px;
+
+  text-shadow:
+  -1px -1px 1px #111,
+  2px 2px 1px #363636;
+}
+.my_text{
+  margin: 0;
+  color: #fff;
+  padding: 0 5px;
+  text-align: center;
+
+}
+
+.button {
+    width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem 0;
+
+    background-position: 0%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border: 5px solid #fff;
+    border-radius: 67px;
+    transition: all 0.7s ease;
+    box-shadow: #fff 0px 1px 15px 1px;
+}
+.button:hover{
+  border-radius: 0;
+  transform: scale(1.05);
+  letter-spacing: 2px;
+  box-shadow: rgba(255, 255, 255, 0.7) 0px 4px 20px 5px;
+}
+@media only  screen and (max-width:768px) {
+  .my_image_box{
+    width: 100%;
+    min-height: 30vh;
+  }
+  .my_img{
+    margin-top: 50px;
+  }
+}
+/* Ipad and Ipad Pro responsive 768-1366px*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : portrait){
+  .my_img{
+    width:20vh;
+    height:20vh;
+  }
+  .Name{
+    font-size: 35px;
+  }
+  .my_text{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 10px;
+  }
+  .button{
+    font-size: 25px;
+    width: 290px
+  }
+}
+/* Phone responsive 180- 768px*/
+@media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
+  .my_image_box{
+    width: 100%;
+    min-height: 10vh;
+  }
+  .my_img{
+    margin-top: 50px;
+  }
+  .my_img{
+    width:23vh;
+    height:23vh;
+  }
+  .Name{
+    font-size: 50px;
+  }
+  .my_text{
+    text-align: center;
+    font-size: 40px;
+    padding: 0 10px;
+  }
+  .button{
+    font-size: 45px;
+    width: 500px;
+  }
+}
