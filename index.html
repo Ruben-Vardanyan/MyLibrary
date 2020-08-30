@@ -12,6 +12,11 @@
      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
      <!-- wow -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+     <!-- fancybox -->
+
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
     <title></title>
   </head>
   <body>
@@ -62,11 +67,11 @@
         <div class="menu1">
           <h3 class="h3">Icon/Css/Js</h3>
           <ul class="m1_ul">
-            <li><a href="#awesome"><i class="fab fa-font-awesome"></i> Font Awesome</a></li>
-            <li><a href="#bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap</a></li>
-            <li><a href="#jquery"><i class="fab fa-js"></i> Jquery</a></li>
-            <li><a href="#wow"><i class="fab fa-js"></i> WoW Js</a></li>
-            <li><a href="https://fancyapps.com/fancybox/3/" target="_blank"><i class="fab fa-js"></i> Fancybox</a></li>
+            <li><a href="index.html#awesome"><i class="fab fa-font-awesome"></i> Font Awesome</a></li>
+            <li><a href="index.html#bootstrap"><i class="fab fa-bootstrap"></i> Bootstrap</a></li>
+            <li><a href="index.html#jquery"><i class="fab fa-js"></i> Jquery</a></li>
+            <li><a href="index.html#wow"><i class="fab fa-js"></i> WoW Js</a></li>
+            <li><a href="index.html#box" ><i class="fab fa-js"></i> Fancybox</a></li>
             <li><a href="https://clipboardjs.com/" target="_blank"><i class="fab fa-js"></i> Clipboard js</a></li>
 
           </ul>
@@ -154,7 +159,7 @@
       <!--  page 5 end-->
       <!--  page 6 start-->
       <section id="wow">
-          <h1 class="h1 h1_wow"><img class="jq_img" src="css/images/wow.jpg" alt="jQuery"></h1>
+          <h1 class="h1 h1_wow "><img class="jq_img "  src="css/images/wow.jpg" alt="jQuery"></h1>
           <p class="p_boot">Reveal Animations When You Scroll. Very <a class="a_wow" href="https://animate.style/">Animate.css</a> Friend :-)
 Easily customize animation settings: style, delay, length, offset, iterations...
 100% MIT Licensed, not GPL. Keep your code yours.
@@ -195,8 +200,74 @@ ES2015+, naturally Caffeine free.</p>
           </div>
 
       </section>
+      <!--  page 6 end-->
+      <!--  page 7 start-->
+      <section id="box">
+          <h1 class="h1 h1_box"><img class="img_box" src="css/images/box.svg" alt="jQuery"></h1>
+          <p class="p_box">JavaScript lightbox library for presenting various types of media.
+Responsive, touch-enabled and customizable.</p>
+          <h3 class="h3_jq" align="center">Customize Settings</h3>
+          <div class="code-box">
+            <figure class="f_wow w1">
+              <pre><code class="language-html  " spellcheck="false"><span class="code_004">&lt;!-- 1. Add latest jQuery and fancybox files -->
+
+&lt;script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js">&lt;/script>
+
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+&lt;script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js">&lt;/script>
+
+
+
+&lt;!-- 2. Create links -->
+
+&lt;a data-fancybox="gallery" href="big_1.jpg">&lt;img src="small_1.jpg">&lt;/a>
+&lt;a data-fancybox="gallery" href="big_2.jpg">&lt;img src="small_2.jpg">&lt;/a>
+
+
+&lt;!-- 3. Have fun! -->  </span></code></pre>
+            </figure>
+          </div>
+            <h3 class="h3_jq" align="center">Images</h3>
+            <div class="code-box">
+              <figure class="f_wow w1">
+                <pre><code class="language-html  " spellcheck="false"><span class="code_004">&lt;a href="image.jpg" data-fancybox="images" data-caption="My caption">
+   &lt;img src="thumbnail.jpg" alt="" />
+&lt;/a> </span></code></pre>
+              </figure>
+            </div>
+              <a class="button6" href="https://fancyapps.com/fancybox/3/docs/" target="_blank">Get started</a>
+              <!-- example -->
+              <h3 class="h3_jq" align="center" style="margin-top:40px;">Single photoes</h3>
+              <div class="gal">
+                <a href="css/images/n1.jpg" data-fancybox>
+                  <img class="img_fanc" src="css/images/n1.jpg" />
+                </a>
+                <a href="css/images/n2.jpg" data-fancybox>
+                  <img class="img_fanc" src="css/images/n2.jpg" />
+                </a>
+                <a href="css/images/n3.jpg" data-fancybox>
+                  <img class="img_fanc" src="css/images/n3.jpg" />
+                </a>
+              </div>
+              <!-- example -->
+              <h3 class="h3_jq" align="center" style="margin-top:40px;">Image gallery</h3>
+              <!-- example -->
+              <div class="gal">
+                <a href="css/images/n1.jpg" data-fancybox="gallery">
+                  <img class="img_fanc" src="css/images/n1.jpg" />
+                </a>
+                <a href="css/images/n2.jpg" data-fancybox="gallery">
+                  <img class="img_fanc" src="css/images/n2.jpg" />
+                </a>
+                <a href="css/images/n3.jpg" data-fancybox="gallery">
+                  <img class="img_fanc" src="css/images/n3.jpg" />
+                </a>
+              </div>
+
+      </section>
     <script type="text/javascript" src="js/app.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
       <script>
       // wow animate__animated animate__swing
 		// new WOW().init();
@@ -206,7 +277,7 @@ ES2015+, naturally Caffeine free.</p>
 					animateClass: 'animated', // default
 					offset:       0,          // default
 					mobile:       true,       // default
-					live:         true        // default
+					live:         true       // default
 				}
 		)
 		wow.init();
