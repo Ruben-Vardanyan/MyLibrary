@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/main-menu.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/icon.css">
     <!-- Awesome -->
      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
      <!-- font Family -->
@@ -72,8 +73,8 @@
             <li><a href="index.html#jquery"><i class="fab fa-js"></i> Jquery</a></li>
             <li><a href="index.html#wow"><i class="fab fa-js"></i> WoW Js</a></li>
             <li><a href="index.html#box" ><i class="fab fa-js"></i> Fancybox</a></li>
-            <li><a href="https://clipboardjs.com/" target="_blank"><i class="fab fa-js"></i> Clipboard js</a></li>
-
+            <li><a href="index.html#clipboard"><i class="fab fa-js"></i> Clipboard js</a></li>
+            <li><a href="index.html#kay"><i class="fas fa-hat-cowboy-side"></i> Kaymaker for bandicam</a></li>
           </ul>
         </div>
         <div class="menu1">
@@ -107,7 +108,7 @@
     <!--  page 2 end-->
     <!--  page 3 start-->
     <section id="awesome">
-      <h1 class="h1 h1_awe"><i class="fab fa-font-awesome-flag i_awes"></i>Font Awesome</h1>
+      <h1 class="h1 h1_awe"><i class="fab fa-font-awesome-flag i_awes"></i>&nbsp;Font Awesome</h1>
       <p class="p_awe">Get vector icons and social logos on your website with Font Awesome, the web's most popular icon set and toolkit.</p>
       <div class="p_awe_name"><p class="p_awe_col">Font Awesome 5.14.0 CDN</p></div>
       <div class="code-box">
@@ -116,7 +117,10 @@
         </figure>
       </div>
       <a class="button2" href="https://fontawesome.com/" target="_blank"><i class="fas fa-rocket"></i> Start for free</a>
-      <img class="awesome-img" src="css/images/awesome.png" alt="">
+      <!-- <img class="awesome-img" src="css/images/awesome.png" alt=""> -->
+      <a href="css/images/awesome.png" data-fancybox >
+        <img class="awesome-img" src="css/images/awesome.png" />
+      </a>
     </section>
     <!--  page 3 end -->
     <!--  page 4 start-->
@@ -172,7 +176,7 @@ ES2015+, naturally Caffeine free.</p>
           </div>
           <h3 class="h3_jq">WOW.js - v1.3.0</h3>
           <div class="mw">
-            <a class="button5" href="js/wow.min.js" download>Download</a>
+            <a class="button5" href="js/wow.min.zip" download>Download</a>
           </div>
           <div class="mw">
             <a class="button5" href="https://wowjs.uk/docs" target="_blank">Get started</a>
@@ -265,10 +269,87 @@ Responsive, touch-enabled and customizable.</p>
               </div>
 
       </section>
+      <!--  page 7 end-->
+      <!--  page 8 start-->
+      <section id="clipboard">
+          <h1 class="h1 h1_clip">clipboard.js</h1>
+          <p class="p_box">A modern approach to copy text to clipboard <br> <br>
+No Flash. No frameworks. Just 3kb gzipped</p>
+          <a class="button7" href="clipboard.zip" download>Download a ZIP</a>
+          <h3 class="h3_jq" align="center">Setup</h3>
+          <div class="code-box" >
+          <figure class="f_wow w1">
+            <pre><code class="language-html" spellcheck="false"><span class="code001">&lt;script</span> <span class="code002">src</span>=<span class="code003">"dist/clipboard.min.js"</span><span class="code001">></span><span class="code001">&lt;/script></span>
+<span class="code001">&lt;script</span> <span class="code002">type</span>=<span class="code003">"text/javascript"</span><span class="code001">></span>
+    <span class="code003">new</span> <span class="code_004">ClipboardJS('.btn');</span>
+<span class="code001">&lt;/script></span></code></pre>
+          </figure>
+          </div>
+            <h3 class="h3_jq" align="center">Copy text from another element</h3>
+            <div class="code-box" >
+            <figure class="f_wow w1">
+
+              <pre><code class="language-html" spellcheck="false"><span class="code_004">&lt;!-- Target --></span>
+<span class="code001">&lt;div</span> <span class="code002">id</span>=<span class="code003">"clip"</span><span class="code001">></span><span class="code_004">Copy text</span><span class="code001">&lt;/div></span>
+
+<span class="code_004">&lt;!-- Trigger --></span>
+<span class="code001">&lt;button</span> <span class="code002">class</span>=<span class="code003">"btn"</span> <span class="code002">data-clipboard-target</span>=<span class="code003">"#clip"</span>>Copy<span class="code001">&lt;/button></span></code></pre>
+            </figure>
+            </div>
+            <h3  class="h3_jq" align="center">
+              <!-- Target -->
+              <div id="clip">Copy text</div>
+
+              <!-- Trigger -->
+              <button class="btn bt" data-clipboard-target="#clip">Copy</button>
+            </h3>
+            <br>
+            <br>
+            <a class="button7" href="https://clipboardjs.com/" target="_blank">Get started</a>
+
+      </section>
+        <!--  page 8 end-->
+        <!--  page 9 start-->
+        <section id="kay">
+            <h1 class="h1 h1_kay"><img class="kay_img" src="css/images/kay.png" alt="jQuery"></h1>
+            <p class="p_box">Kaymaker for Bandicam 2020 Free</p>
+            <a class="button8" href="Kaymaker_for_Bandicam2020.zip" download>Download</a>
+            <div class="gal">
+              <a class="aHelp" href="css/images/help01.png" data-fancybox="gallery2" style="text-align:center;">Help Slider</a>
+              <a href="css/images/help001.png" data-fancybox="gallery2"></a>
+              <a href="css/images/help1.png" data-fancybox="gallery2"></a>
+              <a href="css/images/help2.png" data-fancybox="gallery2"></a>
+              <a href="css/images/help3.png" data-fancybox="gallery2"></a>
+            </div>
+        </section>
+        <!--  page 9 end-->
+        <footer>
+          <!-- contact -->
+          <div class="contact-list">
+        		<a class="icon-link" href="https://www.facebook.com/profile.php?id=100011597919990">
+        			<i class="fab fa-facebook cont-icon"></i>
+        		</a>
+            <a class="icon-link" href="https://www.instagram.com/rubenvardanyan2222/">
+        			<i class="fab fa-instagram cont-icon"></i>
+        		</a>
+            <a class="icon-link" href="https://www.youtube.com/channel/UC-WniodbOlgM6ci-zAg54tw/featured?view_as=subscriber">
+        			<i class="fab fa-youtube cont-icon"></i>
+        		</a>
+            <a class="icon-link"  href="https://github.com/Ruben-Vardanyan">
+          		<i class="fab fa-github cont-icon"></i>
+          	</a>
+            <a class="icon-link" href="https://codepen.io/ruben-vardanyan">
+        			<i class="fab fa-codepen cont-icon"></i>
+        		</a>
+          </div>
+          <!-- copyright -->
+            <p class="p_copy"><i class="far fa-copyright" style="margin-right:5px;"></i>&nbsp;&nbsp;<span>Ruben &nbsp;Vardanyan</span></p>
+        </footer>
     <script type="text/javascript" src="js/app.js"></script>
        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
       <script>
+
       // wow animate__animated animate__swing
 		// new WOW().init();
 		wow = new WOW(
@@ -282,5 +363,10 @@ Responsive, touch-enabled and customizable.</p>
 		)
 		wow.init();
 	</script>
+  <script src="dist/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+    new ClipboardJS('.btn');
+  </script>
   </body>
 </html>

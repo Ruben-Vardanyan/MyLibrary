@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 id="a1">hello</h1>
+    <button class="btn" data-clipboard-target="#a1">
+    copy
+    </button>
+    <h1 id="a2">helloMyfriend</h1>
+    <button class="btn" data-clipboard-target="#a2">
+    copy
+    </button>
+    <input type="text" name="" value="">
+    <script src="dist/clipboard.min.js"></script>
+
+    <script type="text/javascript">
+      new ClipboardJS('.btn');
+    </script>
+  </body>
+</html>
