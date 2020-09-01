@@ -4,7 +4,13 @@
 	flex-wrap: wrap;
 	max-width: 70%;
 	margin:0 auto;
-
+}
+.contact-list2{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin:0 auto;
 }
 .icon-link{
 	display: flex;
@@ -38,13 +44,30 @@
 	transform: scale(0.95);
 }
 @media only screen and (max-width: 800px){
-	.contact-list{
+	.contact-list {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 		max-width: 100%;
 		margin:0 auto;
 	}
+	.contact-list2{
+	 display: flex;
+	 justify-content: flex-start;
+	 flex-wrap: wrap;
+	 max-width: 100%;
+	 margin:0 auto;
+ }
+}
+@media only screen and (max-width: 500px){
+
+	.contact-list2{
+	 display: flex;
+	 justify-content: center;
+	 flex-wrap: wrap;
+	 max-width: 100%;
+	 margin:0 auto;
+ }
 }
 /* hover */
 .icon-link:hover .fa-facebook{
@@ -86,4 +109,11 @@
   .cont-icon{
   	font-size: 50px;
   }
+	.contact-list2{
+	 display: flex;
+	 justify-content: center;
+	 flex-wrap: wrap;
+	 max-width: 100%;
+	 margin:0 auto;
+ }
 }

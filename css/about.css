@@ -1,0 +1,120 @@
+body{
+  font-family: 'Didact Gothic', sans-serif;
+}
+.main{
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 45vh;
+  background: url("images/ararat2.png") no-repeat center / cover;
+  border-radius:0 0 15px  15px;
+  position: relative;
+}
+.my_im{
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.my_nm{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Kaushan Script', cursive;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto ;
+  padding:10px;
+  box-shadow:  0 1px 2px rgba(0,0,0,0.4);
+  border-radius: 15px;
+}
+.sh{
+  background: #252525;
+  margin: 10px 0 0 0;
+  padding: 5px;
+  width: 200px;
+  color: #fff;
+  clip-path: polygon(100% 0, 75% 50%, 100% 100%, 0 100%, 0 0);
+  text-indent: 20px;
+}
+.text_me{
+  font-size: 23px;
+  text-align: justify;
+  text-indent: 20px;
+}
+.text_cont{
+  font-size: 20px;
+
+  text-indent: 10px;
+}
+footer{
+  margin-top: 70px;
+  border-top: 2px dashed #777;
+}
+.p_copy{
+
+  background: #fff;
+  color: #777;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: bold;
+}
+/* Ipad and Ipad Pro responsive 768-1366px*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : portrait){
+  .container{
+    padding:15px;
+  }
+  .my_im{
+    border: 6px solid #fff;
+    width: 280px;
+    height: 280px;
+  }
+  .my_nm{
+    font-size: 45px;
+  }
+  .sh{
+  font-size: 35px;
+  width: 300px;
+  }
+  .text_me{
+    font-size: 32px;
+  }
+  .text_cont{
+    font-size: 27px;
+  }
+  footer{
+    border-top: 4px dashed #777;
+  }
+}
+/* Phone responsive 180- 768px*/
+@media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
+  .container{
+    padding:25px;
+  }
+  .my_im{
+    width: 330px;
+    height: 330px;
+    border: 8px solid #fff;
+  }
+  .my_nm{
+    font-size: 70px;
+  }
+  .sh{
+  font-size: 48px;
+  width: 400px;
+  }
+  .text_me{
+    font-size: 32px;
+  }
+  .text_cont{
+    font-size: 27px;
+  }
+  footer{
+    border-top: 4px dashed #777;
+  }
+}
