@@ -71,7 +71,7 @@
   display: flex;
   max-width: 1000px;
   margin: 30px auto;
-  background: #fafafa;
+
 }
 .par1{
   width: 40%;
@@ -111,7 +111,7 @@
   max-width: 1000px;
   border-top: 1px solid #dbdbdb;
   margin: 0 auto;
-  background: #fafafa;
+ 
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
