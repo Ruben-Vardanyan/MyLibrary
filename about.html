@@ -15,6 +15,15 @@
 
   </head>
   <body>
+    <!-- loading start -->
+<div class="loader-wrapper"  >
+  <div class="loader-inner">
+     <div class="s2"></div>
+     <div class="s3"></div>
+     <div class="s4"></div>
+  </div>
+</div>
+<!-- loading end -->
     <!-- main-menu start-->
     <nav class="main-menu">
       <div class="nav-links">
@@ -81,5 +90,11 @@
         <p class="p_copy"><i class="far fa-copyright" style="margin-right:5px;"></i>&nbsp;&nbsp;<span>Ruben &nbsp;Vardanyan</span></p>
     </footer>
     <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(window).on("load",function(){
+$(".loader-wrapper").fadeOut("slow");
+});
+    </script>
   </body>
 </html>

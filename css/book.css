@@ -111,11 +111,11 @@
   max-width: 1000px;
   border-top: 1px solid #dbdbdb;
   margin: 0 auto;
- 
+
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  text-align: center;
+
 
 
 }
@@ -144,6 +144,7 @@
   transform: translateY(170px);
   transition:all 0.5s ease-in-out;
   font-weight: bold;
+  text-align: center;
 }
 .book:hover .book-image{
   opacity: 0.3;
@@ -153,6 +154,9 @@
 }
 .book:hover .book-name{
   transform: translateY(-170px);
+}
+.bot-menu{
+  display: none;
 }
 @media only screen and (max-width:800px){
   .search{
@@ -182,19 +186,6 @@
     font-weight: 300;
     font-size: 17px;
   }
-}
-footer{
-  margin-top: 70px;
-  border-top: 2px dashed #777;
-}
-.p_copy{
-
-  background: #fff;
-  color: #777;
-  margin: 0;
-  padding: 30px 0;
-  text-align: center;
-  font-weight: bold;
 }
 @media only screen and (max-width:570px){
 
@@ -258,62 +249,59 @@ footer{
 /* Phone responsive 180- 768px*/
 @media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
   .heading , .cent-head{
-    height: 120px;
-  }.cent-head{
+    height: 130px;
+  }
+  .cent-head{
     padding: 0 50px;
   }
   .head-h1{
 
-    font-size: 55px;
+    font-size: 65px;
   }
   .search{
     display: none;
   }
   .icon-men{
-    min-width:370px;
+    min-width:40px;
 
   }
   ._8-yf5{
-      height: 50px;
-      width: 50px
+      height: 65px;
+      width: 65px;
   }
-  .my-it{
-    width: 65px;
-    height: 65px;
+  .home1ic{
+    display: none;
   }
-  .my-it-img{
-    width: 55px;
-    height: 55px;
-  }
+
   .h2-inst{
-     font-size: 36px;
+     font-size: 45px;
   }
   .main-png{
-    max-width: 185px;
-    max-height: 185px;
+    max-width: 225px;
+    max-height: 225px;
     display: block;
     padding: 5px;
     border:2px solid #dbdbdb;
     border-radius: 50%;
   }
   .h3-inst, .a-inst{
-   font-size: 28px;
+   font-size: 38px;
   }
   .book-box{
     max-width: 100%;
   }
   .book{
-    width: 260px;
-    height: 360px;
-    margin: 25px;
+    width: 300px;
+    height: 380px;
+    margin:5px;
     text-decoration: none;
     border-bottom: 1px solid #dbdbdb;
     overflow: hidden;
     transition:transform 0.5s ease-in-out;
   }
   .book-img{
-    width:260px;
-    height: 360px;
+    width:300px;
+    height: 380px;
     margin: 0;
     background: #000;
   }
@@ -322,13 +310,46 @@ footer{
 
     transition:all 0.5s ease-in-out;
   }
-  footer{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  .book-name{
+    font-size: 30px;
   }
-  .p_copy{
-    font-size: 25px;
+  .book:hover .book-name{
+    transform: translateY(-220px);
+  }
+  .bot-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 130px;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #dbdbdb;
+    padding: 0 50px;
+  }
+  .my-it{
+    width: 65px;
+    height: 65px;
+    display: none;
+  }
+  .my-it-img{
+    width:55px;
+    height: 55px;
+  }
+  .my-it2{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #262626;
+    border-radius: 50%;
+  }
+  .my-it-img2{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
   }
 }

@@ -20,7 +20,7 @@ div{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #252525;
+  background-color: #f1f1f1;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@ div{
   height: 100px;
   border-radius:50%;
   	animation: anim 1s linear infinite;
-  background: #e85f63;
+  background: #000000;
   clip-path: polygon(50% 20%, 20% 100%, 80% 100%);
   transform: rotate(0deg);
 }
@@ -52,7 +52,7 @@ div{
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
-   background:#252525;
+   background:#f1f1f1;
    width: 90px;
    height: 90px;
    border-radius:50%;
@@ -67,7 +67,7 @@ div{
   height: 100px;
   border-radius:50%;
   opacity: 0.2;
-  background: #e85f63;
+  background: #252525;
   z-index: 2;
 }
 @keyframes anim {
