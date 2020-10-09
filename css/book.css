@@ -3,6 +3,9 @@
   background: #fff;
   height: 60px;
   border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  z-index: 500;
 }
 .cent-head{
   max-width: 1100px;
@@ -43,7 +46,7 @@
   justify-content: space-around;
   align-items: center;
   height: 60px;
-  min-width:120px;
+  min-width:150px;
 }
 .it-a{
   display: flex;
@@ -70,7 +73,7 @@
 .head-par{
   display: flex;
   max-width: 1000px;
-  margin: 30px auto;
+  margin: 80px auto 40px auto;
 
 }
 .par1{
@@ -110,7 +113,7 @@
   padding: 25px;
   max-width: 1000px;
   border-top: 1px solid #dbdbdb;
-  margin: 0 auto;
+  margin:0 auto 40px auto;
 
   display: flex;
   justify-content: space-around;
@@ -248,6 +251,9 @@
 }
 /* Phone responsive 180- 768px*/
 @media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
+  .heading{
+    border-bottom: 5px solid #dbdbdb;
+  }
   .heading , .cent-head{
     height: 130px;
   }
@@ -260,6 +266,16 @@
   }
   .search{
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    z-index: 5;
+    height: 130px;
+    font-size: 40px;
+    padding:0 40px;
+
   }
   .icon-men{
     min-width:40px;
@@ -272,7 +288,11 @@
   .home1ic{
     display: none;
   }
-
+  .head-par{
+    display: flex;
+    max-width: 1000px;
+    margin: 180px auto 40px auto;
+  }
   .h2-inst{
      font-size: 45px;
   }
@@ -289,6 +309,7 @@
   }
   .book-box{
     max-width: 100%;
+    margin:0 auto 180px auto;
   }
   .book{
     width: 300px;
@@ -326,8 +347,9 @@
     height: 130px;
     width: 100%;
     background: #fff;
-    border-top: 1px solid #dbdbdb;
+    border-top: 5px solid #dbdbdb;
     padding: 0 50px;
+    z-index: 1000;
   }
   .my-it{
     width: 65px;

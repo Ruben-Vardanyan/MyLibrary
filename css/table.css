@@ -1,0 +1,140 @@
+.heading{
+  width: 100%;
+  background: #fff;
+  height: 60px;
+  border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+}
+.cent-head{
+  max-width: 1100px;
+  display: flex;
+  margin: 0 auto;
+
+
+  align-items: center;
+  height: 60px;
+  padding: 0 100px;
+}
+.head-h1{
+  position: absolute;
+  font-family: 'Sansita Swashed', cursive;
+  margin: 0 ;
+  padding: 0;
+  font-weight: 500;
+  font-size: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+}
+.left-rot{
+  transform: rotate(-90deg);
+  display: flex;
+
+}
+.main{
+  padding: 25px;
+  max-width: 1000px;
+  margin:40px auto 40px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.day{
+  max-width: 200px;
+  min-width: 180px;
+  min-height: 200px;
+  margin: 20px;
+  border-bottom: 5px solid #262626
+}
+ol{
+  padding: 0 25px;
+}
+li{
+  text-align: center;
+}
+.b_p{
+background: #262626;
+ color: #fff;
+ padding: 15px;
+ text-align: center;
+ border-radius:  50% 50% 0 0 / 100% 100% 0 0;
+}
+.free{
+  position: relative;
+}
+.fr{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+@media only screen and (max-width:800px){
+  .cent-head{
+    width: 100%;
+    padding: 0 20px  ;
+  }
+}
+/* Ipad and Ipad Pro responsive 768-1366px*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : portrait){
+  .heading , .cent-head{
+    height: 85px;
+  }
+  .head-h1{
+
+    font-size: 40px;
+  }
+  .left-rot{
+    height: 30px;
+    width: 30px
+
+  }
+  .day{
+    max-width: 270px;
+    min-width:260px;
+    min-height: 200px;
+    margin: 20px;
+    font-size: 27px;
+  }
+  span{
+    font-size: 27px;
+  }
+}
+/* Phone responsive 180- 768px*/
+@media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
+  .heading{
+    border-bottom: 5px solid #dbdbdb;
+  }
+  .heading , .cent-head{
+    height: 130px;
+  }
+  .cent-head{
+    padding: 0 50px;
+  }
+  .head-h1{
+
+    font-size: 65px;
+  }
+  .left-rot{
+      height: 65px;
+      width: 65px;
+  }
+  .main{
+      margin: 140px auto 40px auto;
+  }
+  .day{
+    min-width: 80%;
+    min-height: 600px;
+    margin: 20px;
+    font-size: 30px;
+  }
+  span{
+    font-size: 45px;
+  }
+  ol{
+    padding: 0 70px;
+  }
+}
