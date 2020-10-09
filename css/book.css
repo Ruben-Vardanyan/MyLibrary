@@ -349,7 +349,7 @@
     background: #fff;
     border-top: 5px solid #dbdbdb;
     padding: 0 50px;
-    z-index: 1000;
+    z-index: 500;
   }
   .my-it{
     width: 65px;
