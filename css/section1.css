@@ -510,6 +510,55 @@ code{
   border-radius: 20px;
 
 }
+/*page 10*/
+#w10{
+   padding-bottom: 50px;
+}
+.h1_w10{
+  margin: 0;
+  padding: 25px 0 15px 0;
+  background: #fff;
+  border-top: 3px solid #00a8e8;
+  box-shadow: 0 20px 30px rgba(46,186,237,0.5);
+}
+.w10_img{
+  font-size: 70px;
+  color: #00a8e8;
+}
+/*page 11*/
+#office{
+   padding-bottom: 50px;
+}
+.h1_off{
+  margin: 0;
+  padding: 25px 0 15px 0;
+  background: #fff;
+  border-top: 3px solid #eb3b00;
+  box-shadow: 0 20px 30px rgba(235,59,0,0.5);
+}
+.w10_img{
+  font-size: 60px;
+  color: #00a8e8;
+}
+.button9{
+  width: 180px;
+  padding: 24px;
+  background: rgba(235,59,0,1);
+  font-weight: 600;
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 30px;
+}
+.button9:hover{
+  background: rgba(0,0,0,1);
+  box-shadow: 0 20px 30px rgba(0,0,0,0.5);
+}
 /* footer */
 footer{
   border-top: 2px dashed #777;
@@ -647,7 +696,7 @@ footer{
     font-weight: normal;
     border-radius: 10px;
   }
-  .button2 ,  .button3  , .button4 , .button5 , .button6 , .button7 , .button8{
+  .button2 ,  .button3  , .button4 , .button5 , .button6 , .button7 , .button8 , .button9{
     width: 50%;
     padding: 35px;
     font-size: 40px;
