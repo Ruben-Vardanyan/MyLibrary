@@ -171,6 +171,24 @@
 .bot-menu{
   display: none;
 }
+/*download box*/
+.dlod-box{
+  min-height: 25vh;
+  max-width: 1080px;
+  margin:0 auto 40px auto;
+  padding:0 40px;
+}
+.h2_dlod{
+  font-weight: 300;
+  font-size: 28px;
+  border-bottom: 2px solid #dbdbdb;
+}
+.a_dlod{
+  display: block;
+  font-size: 18px;
+  color: #00376b;
+  margin: 7px;
+}
 @media only screen and (max-width:800px){
   .search{
     display: none;
@@ -266,6 +284,24 @@
   }
   .h3-inst, .a-inst{
    font-size: 24px;
+  }
+  /*download box*/
+  .dlod-box{
+    min-height: 20vh;
+    max-width: 1080px;
+    margin:0 auto 40px auto;
+    padding:0 40px;
+  }
+  .h2_dlod{
+    font-weight: 300;
+    font-size: 38px;
+    border-bottom: 3px solid #dbdbdb;
+  }
+  .a_dlod{
+    display: block;
+    font-size: 26px;
+    color: #00376b;
+    margin: 7px;
   }
 }
 /* Phone responsive 180- 768px*/
@@ -400,5 +436,23 @@
     width:70px;
     height: 70px;
     border-radius: 50%;
+  }
+  /*download box*/
+  .dlod-box{
+    min-height: 20vh;
+    max-width: 1080px;
+    margin:0 auto 40px auto;
+    padding:0 40px;
+  }
+  .h2_dlod{
+    font-weight: 400;
+    font-size: 50px;
+    border-bottom: 2px solid #dbdbdb;
+  }
+  .a_dlod{
+    display: block;
+    font-size: 37px;
+    color: #00376b;
+    margin: 15px;
   }
 }
