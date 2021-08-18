@@ -1,0 +1,64 @@
+.mainLogoL{
+	display: block;
+
+	width: 150px;
+	margin: 20px auto;
+}
+.mainBoxL{
+	position: relative;
+	padding: 20px 0; 
+}
+.Sidebar_link-3txdL{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: baseline;
+    padding: .42rem 1.375rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    line-height: 1;
+    transition: .2s ease;
+    background: none;
+    border: 0;
+    width: 200px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.Sidebar_link-3txdL:hover {
+    background: #000;
+}
+.absLines1{
+	position: absolute;
+	top: 0;
+	left:50%;
+	transform: translate(-50%,0);
+	width: 150px;
+	height: 4px;
+	border-radius: 6px;
+	background: linear-gradient(115deg ,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b,#4fcf70);
+	background-size: 200%;
+	animation: animLines 2s  ease-in-out infinite ;
+}
+.absLines2{
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	transform: translate(-50%,0);
+	width: 150px;
+	height: 4px;
+	border-radius: 6px;
+	background: linear-gradient(115deg ,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b,#4fcf70);
+	background-size: 200%;
+	animation: animLines 2s  ease-in-out infinite ;
+}
+@keyframes animLines {
+	from{
+		background-position: 0%;
+	}
+	to{
+		background-position: 200%;
+	}
+	
+}

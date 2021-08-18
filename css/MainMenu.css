@@ -1,0 +1,105 @@
+.LittleMainMenu{
+	display: none;
+}
+@media only screen and (max-width:830px){
+	.LittleMainMenu{
+		display: block;
+		position: absolute;
+  		left: 0;
+  		top: 0;
+  		z-index: 6
+	}
+	.nav-links{
+		background:#1e1f26;
+		overflow: hidden;
+		width: 200px;
+		transition: all 0.5s ease;
+		box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
+		padding: 20px 0;
+		border-radius: 6px;
+		transform: translateY(-120%);
+		margin-top: 50px;
+	}
+	.navFlex{
+		position: absolute;
+	  	top: 0;
+	  	left: 0;
+	  	display: flex;
+	  	justify-content: center;
+	  	align-items: center; 
+	  	padding: 5px 0; 	
+	}
+	.navLogoLink{
+		margin: 0  8px;
+	}
+	.navLogo{
+		display: block;
+    	width: 40px;
+    	height: 40px;
+    	
+	}
+	.burger{
+	  	display: block;
+	  	cursor: pointer;
+	  	transition: all 0.5s ease;
+	    width: 40px;
+	    height: 40px;
+    	padding: 4px; 
+    	cursor: pointer;
+    	border-radius: 4px;
+    	background: #444857;
+    	transition: background-color .2s ease;
+    	position: relative;
+	}
+	.burger div{
+		background: #fff;
+	 	margin: 6px 0;
+	  	transition:all 0.5s ease;
+	}
+	.line1{
+	  	width: 10px;
+      	height: 2px;
+	}
+	.line2{
+	  	width: 16px;
+      	height: 2px;
+	}
+	.line3{
+	  	width: 32px;
+      	height: 2px;
+	}
+	.menuArrow{
+    	position: absolute;
+    	top: 6px;
+    	right: 4px;
+    	color: #fff;
+    	font-size: 18px;
+    	transition:all 0.5s ease;
+    	transform: scaleY(-1);
+	}
+	.toggle .line1{
+	  	width: 16px;
+      	height: 2px;
+	}
+	.toggle .line2{
+	    width: 10px;
+      	height: 2px;
+	}
+	/*.toggle .line3{
+	   transform: rotate(45deg) translate(-5px,-6px );
+	   background: #FF6F91
+	}*/
+	.toggle .menuArrow{
+    	position: absolute;
+    	top: 6px;
+    	right: 4px;
+    	color: #fff;
+    	font-size: 18px;
+    	transition: transform .2s ease;
+    	transform: scaleY(1);
+	}
+	.nav-active{
+	  transform: translateY(0%);
+
+	}
+}
