@@ -20,11 +20,19 @@
 	<!-- end -->
 	<link rel="stylesheet" href="css/head.css">
 	<link rel="stylesheet" href="css/leftSide.css">
+	<link rel="stylesheet" href="css/load.css">
 	<link rel="stylesheet" href="css/code.css">
 	<link rel="stylesheet" href="css/MainMenu.css">
 	
 </head>
 <body>
+	 <!-- loading start -->
+	<div class="loader-wrapper"  >
+	  <div class="loader-inner">
+	    <img class="s1" src="logos/LogoL.png" alt="">
+	  </div>
+	</div>
+	<!-- loading end -->
 	<!-- mini menu -->
 	<div class="LittleMainMenu">
 		<div class="nav-links">
@@ -378,6 +386,11 @@
       new ClipboardJS('.awesome');
       new ClipboardJS('.jquery');
       new ClipboardJS('.wow');
+    </script>
+     <script type="text/javascript">
+    	$(window).on("load",function(){
+		$(".loader-wrapper").fadeOut("slow");
+		});
     </script>
 </body>
 </html>

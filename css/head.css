@@ -16,12 +16,12 @@ html{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body{
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-	background: #131417;
-	position: relative;
-	font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #131417;
+    position: relative;
+    font-family: sans-serif;
 
 }
 div {
@@ -29,37 +29,37 @@ div {
 }
 /* 830px ! */
 .leftSide{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 200px;
-	background:#1e1f26;
-	height: 100vh;
-	box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
-	z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background:#1e1f26;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
+    z-index: 3;
     overflow: hidden;
 
 }
 /* ! */
 .rightSide{ 
-	position: relative;
-	width: 100%;
-	padding-left:200px;
-	box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-left:200px;
+    box-sizing: border-box;
 }
 header{
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	min-height: 65vh;
-	padding:80px 8% 0 10%;
-	z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 65vh;
+    padding:80px 8% 0 10%;
+    z-index: 2;
 }
 /* ! */
 .LogoL1{
-	margin-top: 40px;
-	width: 55px;
-	height: 55px;	
+    margin-top: 40px;
+    width: 55px;
+    height: 55px;   
 }
 .LogoL2{
     display: none;
@@ -67,9 +67,9 @@ header{
     height: 55px;   
 }
 .headH1{
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Fjalla One', sans-serif;
-	line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.3;
     font-size: 3rem;
     font-weight: normal;
     color: #fff;
@@ -77,13 +77,13 @@ header{
     letter-spacing: 1px;
 }
 .headp{
-	font-size: 1.2rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
     color: #c7c9d3;
     max-width: 500px
 }
 .bold{
-	color: #fff;
+    color: #fff;
 }
 .headA-box{
     display: block;
@@ -107,14 +107,14 @@ header{
     font-weight: normal !important;
 }
 .headA:focus , .headA:hover {
-	background: #2fb45a;
+    background: #2fb45a;
 }
 .phoneTT{
-	width: 300px;
+    width: 300px;
 }
 /* ! */
 .imgAbs1{
-	top: -80px;
+    top: -80px;
     position: absolute;
     right: 0;
     width: 600px;
@@ -144,14 +144,14 @@ header{
 
 .largMenu{
     position: relative;
-	display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5%;
     padding:30px 5% 20px 5%;
     margin: 0 0 50px 0 ;
 }
 .Bar{
-	background: #2c303a;
+    background: #2c303a;
     padding: 1.5rem 1.5rem 2rem;
     margin: 2rem 0;
     border-radius: 10px;
@@ -159,17 +159,17 @@ header{
     z-index: 1;
 }
 .barLogo{
-	position: absolute;
-	top:-30px;
-	left: 20px;
-	width: 80px;
-	height: 80px;
+    position: absolute;
+    top:-30px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
 }
 .BarH2{
     margin-top: 30px;
-	-webkit-font-smoothing: antialiased;
-	font-family: 'Fjalla One', sans-serif;
-	line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.3;
     font-size: 1.6rem;
     font-weight: normal;
     color: #fff;
@@ -178,21 +178,21 @@ header{
    
 }
 .Barp{
-	color: #c7c9d3;
-	font-size: 1.0rem;
-	
+    color: #c7c9d3;
+    font-size: 1.0rem;
+    
 }
 .Barlinks{
-	display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
     
 }
-.BarA{	
-	font-size: 1.2rem;
-	padding: 2.5px 0; 
-	display: block;
+.BarA{  
+    font-size: 1.2rem;
+    padding: 2.5px 0; 
+    display: block;
     text-decoration: none; 
     color: #76daff;
     position: relative;
@@ -200,7 +200,7 @@ header{
     transition: .2s ease;  
 }
  .BarA:hover {
-	color: #fff;
+    color: #fff;
 }
 .BarALarge {
     -webkit-appearance: none;
@@ -221,7 +221,7 @@ header{
     font-weight: normal !important;
 }
 .BarALarge:hover{
-	background:#3d404f; 
+    background:#3d404f; 
 }
 /* program List */
 .programList{
