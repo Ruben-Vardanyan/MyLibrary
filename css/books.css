@@ -236,6 +236,9 @@ header{
       overflow: hidden;
       transition:transform 0.5s ease-in-out;
     }
+	.book:hover .book-name{
+  transform: translateY(170px);
+}
 }
 /*phone 180-767px*/
 @media only screen and (min-device-width : 180px) and (max-device-width :  767px) and (orientation : portrait) {
@@ -261,4 +264,7 @@ header{
       overflow: hidden;
       transition:transform 0.5s ease-in-out;
     }
+	.book:hover .book-name{
+  transform: translateY(170px);
+}
  }
