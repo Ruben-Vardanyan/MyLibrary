@@ -1,52 +1,3 @@
-/* width */
-::-webkit-scrollbar {
-  width: 4px;
-}
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #252525; 
-  border-radius: 10px;
-}
-
-
-
-html{
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background: #131417;
-    position: relative;
-    font-family: sans-serif;
-
-}
-div {
-    box-sizing: border-box;
-}
-/* 830px ! */
-.leftSide{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    background:#1e1f26;
-    height: 100vh;
-    box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
-    z-index: 3;
-    overflow: hidden;
-
-}
-/* ! */
-.rightSide{ 
-    position: relative;
-    width: 100%;
-    padding-left:200px;
-    box-sizing: border-box;
-}
 header{
     position: relative;
     display: flex;
@@ -348,7 +299,7 @@ header{
 .platformp{
     color: #c7c9d3;
     font-size: 1.0rem;
-    
+     line-height: 1.3
 }
 .platformA-box{
     display: block;
@@ -383,52 +334,7 @@ header{
 .green:focus , .green:hover {
     background: #2fb45a;
 }
-/* footer !*/
-.footer{
-    background: #010101;
-    padding: 20px 7%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.footer-box{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
-    grid-gap: 30px;
-}
 
-
-.footer-a{
-    font-size: 1rem;
-    padding: 2.5px 0; 
-    display: block;
-    text-decoration: none; 
-    color: #9b9dad;
-    position: relative;
-    overflow: hidden; 
-    line-height: 1.5; 
-    transition: .2s ease;
-}
-.footer-a:hover {
-    color: #fff;
-}
-
-.footer-copy{
-    display: flex;
-    flex-direction: column;
-}
-.footer-Logo{
-    height: 45px;
-    margin-bottom: 10px;
-}
-.copyright{
-    
-    text-align: right;
-    font-size: 0.9rem;
-    color: #9b9dad;
-}
 @media only screen and (max-width:1024px){
     .LogoL1{  
         display: none;
@@ -478,12 +384,8 @@ header{
     }
 }
 @media only screen and (max-width:830px){
-    .leftSide{
-        display: none;
-    }
-    .rightSide{ 
-        padding-left:0;  
-    }
+   
+    
     .largMenu{
       display: block;
       width: 100%;  
@@ -502,19 +404,6 @@ header{
         top: -10px;
         right: -20%;
         width: 600px;
-    }
-    .footer{
-        justify-content: space-between;
-    }
-    .footer-box{
-        width: 100%;
-        justify-content: space-between;
-    }
-    .copyright{
-        
-        text-align: left;
-        font-size: 0.9rem;
-        color: #9b9dad;
     }
 }
 

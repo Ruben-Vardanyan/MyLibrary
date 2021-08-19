@@ -1,3 +1,17 @@
+/* 830px ! */
+.leftSide{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background:#1e1f26;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
+    z-index: 8;
+    overflow: hidden;
+
+}
+/* ! */
 .mainLogoL{
 	display: block;
 
@@ -61,4 +75,10 @@
 		background-position: 200%;
 	}
 	
+}
+
+@media only screen and (max-width:830px){
+    .leftSide{
+        display: none;
+    }
 }
