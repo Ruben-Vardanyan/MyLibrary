@@ -236,7 +236,7 @@ header{
       overflow: hidden;
       transition:transform 0.5s ease-in-out;
     }
-	.book:hover .book-name{
+    .book:hover .book-name{
   transform: translateY(170px);
 }
 }
@@ -264,7 +264,7 @@ header{
       overflow: hidden;
       transition:transform 0.5s ease-in-out;
     }
-	.book:hover .book-name{
+    .book:hover .book-name{
   transform: translateY(170px);
 }
  }
