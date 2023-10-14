@@ -197,7 +197,7 @@ header {
     display: block;
     width: 100%;
     position: relative;
-    margin: 0 8px;
+    margin: 0 8px 0 0;
 
   }
 
@@ -208,9 +208,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 0;
+    padding: 5px 0 5px 8px;
     width: 100vw;
     background:#1e1f26;
+    
   }
 
   .search1 {
