@@ -1,0 +1,157 @@
+header{
+	position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 55vh;
+    padding:0 8% 0 10%;
+   	/* z-index: 2;*/
+   	margin-bottom:120px; 
+    
+}
+/* ! */
+.LogoL1{
+    margin-top: 120px;
+    width: 55px;
+    height: 55px;   
+}
+.LogoL2{
+    display: none;
+    margin: 0 auto;
+    height: 55px;   
+}
+.headH1{
+	-webkit-font-smoothing: antialiased;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.3;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #fff;
+    max-width: 400px;
+    letter-spacing: 1px;
+}
+.headLine{
+	max-width: 450px;
+	margin: 0 auto;
+	height: 5px;
+    border-radius: 2px;
+	background: linear-gradient(115deg ,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b,#4fcf70);
+}
+.Headrocket{
+	position: absolute;
+	top: -20%;
+	right: 8%; 
+	width: 350px;
+	transform: rotate(180deg);
+}
+
+/* about My Library box*/
+.aboutMyLibrary{
+ 	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    position: relative;
+    padding: 0 4%;
+}
+.InAboutMyLibrary{
+	background: #1e1f26;
+    border-radius: 6px;
+    padding: 3rem 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+.AboutH2{
+	margin-top: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.AboutH3{
+	 margin-top: 30px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.Aboutp{
+	color: #c7c9d3;
+    font-size: 1.1rem;
+    line-height: 1.3
+}
+.AboutA{
+	color: #1daee9;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+    font-weight: bold;
+
+}
+.AboutA:hover{
+	color: #5bd5a0;
+}
+.ContA{
+	margin:0 5px;
+	line-height: 1.3 
+}
+.AboutImg{
+	width: 100px;
+	height: 100px;
+}
+@media only screen and (max-width:1024px){
+	header{
+		position: relative;
+	    display: flex;
+	   	flex-direction: column;
+	   	justify-content: space-around;
+	    padding:80px 8% 0 10%;
+        min-height: 30vh;
+	}
+    .LogoL1{  
+        display: none;
+    }
+    .LogoL2{
+        display: block;
+       
+    }
+
+    .headH1 {
+        max-width: 100%; 
+        text-align: center;
+    }
+    .Headrocket{
+    	display: none;
+    }
+}    
+@media only screen and (max-width:555px){
+	header{
+    	min-height: 30vh;	
+	}
+
+    .headH1 {
+        font-size: 2.2rem;
+    }
+    .InAboutMyLibrary{
+		
+	    padding: 3rem 1rem;
+	  
+	}
+	.ContA{
+		display: block;
+		margin: 5px 0;
+	}
+}    
+/* Ipad and Ipad Pro responsive 768-1366px*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : portrait){
+    header{
+        min-height: 25vh;
+        margin-bottom: 50px;
+    }
+    .LogoL1{
+        margin-top: 50px;  
+    }
+}
